@@ -139,3 +139,31 @@
   "isTransparent": true,
   "locale": "en"
 }
+// data.json
+{
+  "width": "100%", //sets width
+  "height": "600", //sets height
+  "symbolsGroups": [
+    {
+      "name": "Stocks", //new section inside widget
+      "symbols": [
+        {
+          "name": "NASDAQ:AMZN",
+          "displayName": "AMZN - Amazon" // specific stock
+        },
+        {
+          "name": "TSX:BB",
+          "displayName": "BB - Blackberry"
+        },
+        {
+          "name": "NYSE:GME",
+          "displayName": "GME - Gamestop"
+        }
+      ]
+    }
+  ], //shows stock info
+  "showSymbolLogo": true,
+  "colorTheme": "dark", //color theme
+  "isTransparent": true, //transparent bg
+  "locale": "en" //language
+}
